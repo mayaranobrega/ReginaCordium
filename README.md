@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Regina Cordium</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Regina Cordium 💎</h1>
+    <nav>
+      <a href="#joias">Joias</a>
+      <a href="#carrinho">Carrinho</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h2>Joias com significado eterno</h2>
+    <p>Beleza, fé e delicadeza em cada peça.</p>
+  </section>
+
+  <section id="joias" class="produtos">
+    <h2>Nossas Joias</h2>
+    <div class="item">
+      <img src="colar.png" alt="Colar Sagrado Coração">
+      <h3>Colar Sagrado Coração</h3>
+      <p>R$ 120,00</p>
+      <button onclick="adicionarAoCarrinho('Colar Sagrado Coração')">Adicionar</button>
+    </div>
+
+    <div class="item">
+      <img src="anel.png" alt="Anel Ave Maria">
+      <h3>Anel Ave Maria</h3>
+      <p>R$ 85,00</p>
+      <button onclick="adicionarAoCarrinho('Anel Ave Maria')">Adicionar</button>
+    </div>
+  </section>
+
+  <section id="carrinho">
+    <h2>🛒 Seu Carrinho</h2>
+    <ul id="lista-carrinho"></ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Regina Cordium - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
