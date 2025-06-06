@@ -1,0 +1,33 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  background-color: #fff8f8;
+  color: #4b2e2e;
+}
+
+header {
+  background-color: #fbe5e5;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  color: #8b1c38;
+  font-size: 2.5rem;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.produtos article {
+  background: #fff;
+  border: 1px solid #e3c9c9;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
+}
