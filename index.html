@@ -1,50 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head> 
+<html lang="pt-br">
+<head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Regina Cordium</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Regina Cordium 💎</h1>
-    <nav>
-      <a href="#joias">Joias</a>
-      <a href="#carrinho">Carrinho</a>
-    </nav>
+    <h1>Regina Cordium</h1>
+    <p>Joias com alma e beleza eterna</p>
   </header>
 
-  <section class="banner">
-    <h2>Joias com significado eterno</h2>
-    <p>Beleza, fé e delicadeza em cada peça.</p>
-  </section>
+  <main>
+    <section>
+      <h2>Nova Coleção</h2>
+      <p>Peças delicadas inspiradas na fé e na natureza.</p>
+    </section>
 
-  <section id="joias" class="produtos">
-    <h2>Nossas Joias</h2>
-    <div class="item">
-      <img src="colar.png" alt="Colar Sagrado Coração">
-      <h3>Colar Sagrado Coração</h3>
-      <p>R$ 120,00</p>
-      <button onclick="adicionarAoCarrinho('Colar Sagrado Coração')">Adicionar</button>
-    </div>
+    <section class="produtos">
+      <article>
+        <img src="https://via.placeholder.com/200x200" alt="Joia 1">
+        <h3>Anel Coração Místico</h3>
+        <p>R$ 189,00</p>
+      </article>
 
-    <div class="item">
-      <img src="anel.png" alt="Anel Ave Maria">
-      <h3>Anel Ave Maria</h3>
-      <p>R$ 85,00</p>
-      <button onclick="adicionarAoCarrinho('Anel Ave Maria')">Adicionar</button>
-    </div>
-  </section>
-
-  <section id="carrinho">
-    <h2>🛒 Seu Carrinho</h2>
-    <ul id="lista-carrinho"></ul>
-  </section>
+      <article>
+        <img src="https://via.placeholder.com/200x200" alt="Joia 2">
+        <h3>Colar Fé Rosa</h3>
+        <p>R$ 229,00</p>
+      </article>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Regina Cordium - Todos os direitos reservados</p>
+    <p>&copy; 2025 Regina Cordium</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
